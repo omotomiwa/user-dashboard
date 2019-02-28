@@ -1,9 +1,5 @@
-$('#toggle').click(function() {
-    if ($(window).width() > 500) { //your chosen mobile res
-      $('.text').toggle(300);
-    } else {
-      $('.menu').animate({
-        width: 'toggle'
-      }, 350);
-    }
-});
+function reduce(){
+  var expand = document.querySelector(".sidebar");
+  expand.classList.add ("shrink");
+}
+

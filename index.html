@@ -9,172 +9,180 @@
     <title>user dashboard</title>
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="dash.css">
 
-    
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <ul>
-        <li><a href="#home" class = "field"></a></li>
-        <li><a href="#news" class = "logo"></a></li>
-        <li class= "fieldco"><b>Fieldco</b></li>
+        <li><a href="#" class="field">
+            <label class="switch tog">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+        </a>
+        </li>
+        <li><a href="#" class="logo"></a></li>
+        <li class="fieldco"><b>Fieldco</b></li>
         <li style="float:right"><i class="fa fa-ellipsis-v" style="font-size:30px; color: blue"></i></li>
         <li style="float:right">
-            <a href="#profile" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle profiles">
-              <img src = "splash.water.jpg">
-                Simon
-            </a>
-            <ul class="collapse list-unstyled profiles" id="profile">
-                <li>
-                    <a href="#"><i class="fas fa-user profiles"></i>profile</a>
-                </li>
-                <li>
-                    <a href="#">  <i class="fas fa-mars-stroke-h profiles"></i>log out</a>
-                </li>
-               
+            <button type="button"  data-toggle="dropdown"
+                aria-expanded="true">
+                <b>Chris</b>
+
+            </button>
+            <ul class="dropdown-menu pull-right" role="menu">
+
+                <li><a class="portfolio-filter" href="#" data-filter=".filter-for-lease"><i class="fas fa-user"></i>Profile</a></li>
+                <li><a class="portfolio-filter" href="#" data-filter=".filter-for-sale"><i class="fas fa-mars-stroke-h"></i>Log out</a></li>
+
             </ul>
+
+        </li>
+        <li style="float:right" class = "splash"><img src="splash.water.jpg"></li>
         </li>
         <li></li>
-      </ul>
-      <ul>
-            <div class="main">
-             <div class = "searching"><input type= "text" placeholder="Search Menu..."></div> 
-            </div>
-               
-      
-      <div class = "contain">
-          <div class="sidebar">
-              <a href="#home"><i class="fa fa-fw fa-home"></i> Dashboard</a>
-              <a href="#services"></i> FACILITY MANAGEMENT</a>
-              <li class="active">
-                  <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                      <i class="fas fa-calculator"></i>
-                      Facility
-                  </a>
-                  <ul class="collapse list-unstyled active" id="homeSubmenu">
-                      <li>
-                          <a href="#">Clusters</a>
-                      </li>
-                      <li>
-                          <a href="#">Buildings</a>
-                      </li>
-                      <li>
-                          <a href="#">Apartment</a>
-                      </li>
-                      <li>
-                              <a href="#">Booking</a>
-                          </li>
-                  </ul>
+    </ul>
+    <ul>
+        <div class="main">
+            <div class="searching"><input type="text" placeholder="Search Menu..."></div>
+        </div>
 
-                  <li class="active">
-                      <a href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                          <i class="fas fa-wrench"></i>
-                          Building PPM
-                      </a>
-                      <ul class="collapse list-unstyled active" id="Submenu">
-                          <li>
-                              <a href="#">dsxfghbbjgch</a>
-                          </li>
-                          <li>
-                              <a href="#">twoddvfdvddb</a>
-                          </li>
-                          <li>
-                              <a href="#">threebdggffgbbf</a>
-                          </li>
-                          <li>
-                                  <a href="#">fourfbfdbfdbbb</a>
-                              </li>
-                      </ul>
-                  </li>
-                  <li class="active">
-                      <a href="#Su" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                          <i class="fas fa-search-plus"></i>Facility reference</a>
-                      <ul class="collapse list-unstyled active" id="Su">
-                          <li>
-                              <a href="#">bnmlhcvbna</a>
-                          </li>
-                          <li>
-                              <a href="#">bkjhvbnm</a>
-                          </li>
-                          <li>
-                              <a href="#">cdfghjkl</a>
-                          </li>
-                          </ul>
+
+        <div class="contain">
+            <div class="sidebar">
+                <a href="#home"><i class="fa fa-fw fa-home"></i> Dashboard</a>
+                <a href="#services"></i> FACILITY MANAGEMENT</a>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-calculator"></i>
+                        Facility
+                    </a>
+                    <ul class="collapse list-unstyled active" id="homeSubmenu">
+                        <li>
+                            <a href="#">Clusters</a>
                         </li>
-                        <li class="active">
-                            <a href="#work" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                                <i class="fas fa-clipboard-list"></i>Work order</a>
-                            <ul class="collapse list-unstyled active" id="work">
-                                <li>
-                                    <a href="#">bnmlhcvbna</a>
-                                </li>
-                                <li>
-                                    <a href="#">bkjhvbnm</a>
-                                </li>
-                                <li>
-                                    <a href="#">cdfghjkl</a>
-                                </li>
-                                </ul>
-                              </li>
-                              <li class="active">
-                                <a href="#payment" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                                    <i class="	fas fa-money-check-alt"></i>Payment requisition</a>
-                                <ul class="collapse list-unstyled active" id="payment">
-                                    <li>
-                                        <a href="#">bnmlhcvbna</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">bkjhvbnm</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">cdfghjkl</a>
-                                    </li>
-                                    </ul>
-                                  </li>
-                                  <li class="active">
-                                    <a href="#payment" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                                        <i class="	fas fa-money-check-alt"></i>Work Request</a>
-                                    <ul class="collapse list-unstyled active" id="payment">
-                                        <li>
-                                            <a href="#">bnmlhcvbna</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">bkjhvbnm</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">cdfghjkl</a>
-                                        </li>
-                                        </ul>
-                                      </li>
-                                      <li class="active">
-                                            <i class="	fas fa-money-check-alt"></i>Payment requisition</a>
-                                        </li>
-                    </div>
+                        <li>
+                            <a href="#">Buildings</a>
+                        </li>
+                        <li>
+                            <a href="#">Apartment</a>
+                        </li>
+                        <li>
+                            <a href="#">Booking</a>
+                        </li>
+                    </ul>
 
-                   </div>
+                <li class="active">
+                    <a href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-wrench"></i>
+                        Building PPM
+                    </a>
+                    <ul class="collapse list-unstyled active" id="Submenu">
+                        <li>
+                            <a href="#">dsxfghbbjgch</a>
+                        </li>
+                        <li>
+                            <a href="#">twoddvfdvddb</a>
+                        </li>
+                        <li>
+                            <a href="#">threebdggffgbbf</a>
+                        </li>
+                        <li>
+                            <a href="#">fourfbfdbfdbbb</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#Su" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-search-plus"></i>Facility reference</a>
+                    <ul class="collapse list-unstyled active" id="Su">
+                        <li>
+                            <a href="#">bnmlhcvbna</a>
+                        </li>
+                        <li>
+                            <a href="#">bkjhvbnm</a>
+                        </li>
+                        <li>
+                            <a href="#">cdfghjkl</a>
+                        </li>
+                    </ul>
+                </li>
 
-             
-        
+                <li class="active">
+                    <a href="#worked" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-clipboard-list"></i>Work management</a>
+                    <a href="#work" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-clipboard-list"></i>Work order</a>
+                    <ul class="collapse list-unstyled active" id="work">
+                        <li>
+                            <a href="#">bnmlhcvbna</a>
+                        </li>
+                        <li>
+                            <a href="#">bkjhvbnm</a>
+                        </li>
+                        <li>
+                            <a href="#">cdfghjkl</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#payment" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="	fas fa-money-check-alt"></i>Payment requisition</a>
+                    <ul class="collapse list-unstyled active" id="payment">
+                        <li>
+                            <a href="#">bnmlhcvbna</a>
+                        </li>
+                        <li>
+                            <a href="#">bkjhvbnm</a>
+                        </li>
+                        <li>
+                            <a href="#">cdfghjkl</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#payment" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="	fas fa-money-check-alt"></i>Work Request</a>
+                    <ul class="collapse list-unstyled active" id="payment">
+                        <li>
+                            <a href="#">bnmlhcvbna</a>
+                        </li>
+                        <li>
+                            <a href="#">bkjhvbnm</a>
+                        </li>
+                        <li>
+                            <a href="#">cdfghjkl</a>
+                        </li>
+                    </ul>
+                </li>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        </div>
+
+
+
+
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
